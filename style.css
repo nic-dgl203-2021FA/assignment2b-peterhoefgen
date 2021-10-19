@@ -19,7 +19,11 @@ button {
     width: 50%
 }
 
-
+h2 {
+    color: violet;
+    font-family: courier, sans-serif;
+    font-size: 0.75em;
+}
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
