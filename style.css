@@ -1,16 +1,24 @@
+/*
+Grid set up for screens smaller than 700px, the grid is 1 column and four rows.
+*/
 
 div {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    width: 25%;
+    width: 50%;
 }
+
+/*
+Initial stylings for the button on the page
+*/
 
 button {
     background-color: blueviolet;
     color: white;
-    width: 50%;
+    width: 50%
 }
+
 
 
 /*
