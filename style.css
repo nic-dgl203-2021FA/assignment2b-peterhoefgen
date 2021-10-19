@@ -12,7 +12,7 @@ div {
 }
 
 /*
-button - initial stylings for the button element
+    button - initial stylings for the button element
 */
 
 button {
@@ -20,13 +20,10 @@ button {
     color: white;
     height: 25%;
     width: 50%;
-    margin: 0;
-    padding: 0;
-
 }
 
 /*
-button - set up animation for button hover property
+    button - set up animation for button hover property
 */
 
 button:hover {
@@ -36,16 +33,13 @@ button:hover {
 }
 
 /*
-h2 - initial element stylings for the h2 element
+    h2 - initial element stylings for the h2 element
 */
 
 h2 {
     color: violet;
     font-family: courier, sans-serif;
     font-size: 0.75em;
-    width: 250px;
-    margin: 0;
-    padding: 0;
 }
 
 /*
