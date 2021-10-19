@@ -56,7 +56,6 @@ h2 {
     100% {transform: scale(1);}
 }
 
-
 /*
 .sGrover - gives the initial width for the sGrover image.
 */
@@ -66,6 +65,8 @@ h2 {
     margin: 0;
     padding: 0;
 }
+
+
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
