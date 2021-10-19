@@ -60,13 +60,17 @@ h2 {
 .sGrover - gives the initial width for the sGrover image.
 */
 
-.sGrover {
+.sGrover img:hover {
     width: 150px;
-    margin: 0;
-    padding: 0;
+    animation: movement;
 }
 
+/*
+    .sGrover - this keyframe creates the movement animation for the svg image. 
+*/
 
+@keyframes movement {
+}
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
