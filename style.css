@@ -86,6 +86,19 @@ img:hover {
 }
 
 /*
+    .cloud1 and cloud2 target the cloud images 
+    and applies the cloudMovement keyframe
+*/
+
+#cloud1 {
+    animation: cloudMovement 20s linear infinite;
+}
+
+#cloud2 {
+    animation: cloudMovement 25s 5s linear infinite backwards;
+}
+
+/*
     This keyframe allows the start of the cloud movement animation
 */
 
