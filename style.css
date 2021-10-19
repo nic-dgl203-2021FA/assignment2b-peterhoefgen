@@ -60,16 +60,29 @@ h2 {
 .sGrover - gives the initial width for the sGrover image.
 */
 
-.sGrover img:hover {
-    width: 150px;
-    animation: movement;
+img {
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
 }
 
 /*
-    .sGrover - this keyframe creates the movement animation for the svg image. 
+    .sGrover - the animation is applied to the hover state of the img allowing
+    the image to rotate when the cursors hovers on it.
 */
 
-@keyframes movement {
+img:hover {
+    width: 50%;
+    animation-play-state: running;
+}
+
+/*
+    .sGrover - this keyframe creates the rotation animation for the svg image. 
+*/
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /*
