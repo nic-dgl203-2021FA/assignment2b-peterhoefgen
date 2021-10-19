@@ -1,8 +1,14 @@
 
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 25%;
+}
+
 button {
     background-color: blueviolet;
     color: white;
-    margin: 50%;
 }
 
 
