@@ -1,5 +1,11 @@
 
 
+
+
+/*
+Add @media ruleset for screens larger that will set up and display a larger grid.
+*/
+
 @media screen and (min-width: 700px)
 
 
