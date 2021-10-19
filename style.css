@@ -40,42 +40,20 @@ h2 {
     color: violet;
     font-family: courier, sans-serif;
     font-size: 0.75em;
+    animation-name: scale;
+    animation-duration: 3s;
+
 }
 
 /*
-    h2 - the following creates the animation styles for the h2
+    h2 - the keyframes below allow the h2 animation to grow and then reset to show
+    a bounce effect.
 */
 
-h2 {
-    animation: typing 3s steps(15),
-                cursor 0.5s steps(1) infinite;
-}
-
-/*
-    This @keyframes section creates the typing effect.
-*/
-
-@keyframes typing {
-    0% {
-        width:0px;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-/*
-    This CSS @keyframe creates the cursor blinking effect
-*/
-
-@keyframes cursor {
-    0%, 100% {
-        border-color: transparent;
-    }
-    50% {
-        border-color: blue;
-    }
-
+@keyframes scale {
+    0% {transform: scale(0.5);}
+    85% {transform: scale(1.5);}
+    100% {transform: scale(1);}
 }
 
 
