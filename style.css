@@ -1,5 +1,5 @@
 /*
-Grid set up for screens smaller than 700px, the grid is 1 column and four rows.
+    Grid set up for screens smaller than 700px, the grid is 1 column and four rows.
 */
 
 div {
@@ -47,6 +47,43 @@ h2 {
     margin: 0;
     padding: 0;
 }
+
+/*
+    h2 - the following creates the animation styles for the h2
+*/
+
+h2 {
+    animation: typing 3s steps(15),
+                cursor 0.5s steps(1) infinite;
+}
+
+/*
+    This @keyframes section creates the typing effect.
+*/
+
+@keyframes typing {
+    0% {
+        width:0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/*
+    This CSS @keyframe creates the cursor blinking effect
+*/
+
+@keyframes cursor {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: blue;
+    }
+
+}
+
 
 /*
 .sGrover - gives the initial width for the sGrover image.
