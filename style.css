@@ -86,6 +86,19 @@ img:hover {
 }
 
 /*
+    This keyframe allows the start of the cloud movement animation
+*/
+
+@keyframes cloudMovement {
+    0% {
+        transform: translateX(-150px);
+    }
+    100% {
+        transform: translateX(820px);
+    }
+}
+
+/*
 Add @media ruleset for screens larger that will set up and display a larger grid.
 */
 
