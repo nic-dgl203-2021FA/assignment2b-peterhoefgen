@@ -112,6 +112,33 @@ img:hover {
 }
 
 /*
+    Animation Part 2 CSS:
+*/
+
+/*
+    SVG Rectangle Animation
+*/
+
+
+/*
+    Push keyframe set up to show inner rectangle movement
+*/
+
+@keyframes push {
+    0% {
+        transform: scale(0.3);
+    }
+
+    80% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*
 Add @media ruleset for screens larger that will set up and display a larger grid.
 */
 
