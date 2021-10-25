@@ -119,9 +119,17 @@ img:hover {
     SVG Rectangle Animation
 */
 
+/*
+    This sets up the fade out animation for the inner rectangle
+*/
+
 #innerRect {
-    animation: fadeOut .5s both;
+    animation: fadeOut 1.2s both;
 }
+
+/*
+    Reversing the fadeOut animation for the outer rectangle so it fades in.
+*/
 
 /*
     Push keyframe set up to show inner rectangle fade out
@@ -135,6 +143,7 @@ img:hover {
         opacity: 0;
     }
 }
+
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
