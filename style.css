@@ -120,24 +120,19 @@ img:hover {
 */
 
 #innerRect {
-    animation: push .5s linear;
+    animation: fadeOut .5s both;
 }
 
 /*
-    Push keyframe set up to show inner rectangle scale
+    Push keyframe set up to show inner rectangle fade out
 */
 
-@keyframes push {
+@keyframes fadeOut {
     0% {
-        transform: scale(0.5);
+        opacity: 1;
     }
-
-    40% {
-        transform: scale(2);
-    }
-
     100% {
-        transform: scale(1);
+        opacity: 0;
     }
 }
 
