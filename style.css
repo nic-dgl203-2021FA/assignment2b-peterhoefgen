@@ -119,9 +119,12 @@ img:hover {
     SVG Rectangle Animation
 */
 
+#innerRect {
+    animation: push .75s linear;
+}
 
 /*
-    Push keyframe set up to show inner rectangle movement
+    Push keyframe set up to show inner rectangle scale
 */
 
 @keyframes push {
