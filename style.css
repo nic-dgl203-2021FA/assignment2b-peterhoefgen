@@ -222,7 +222,21 @@ img:hover {
     --scale: 2.5;
     --dist: 75%;
     --deg: 15deg;
+    margin-bottom: 3rem;
 }
+
+#fontAnimation p:nth-of-type(2) {
+    --scale: 1;
+    --dist: 67%;
+    margin-bottom: 8rem;
+}
+
+#fontAnimation p:nth-of-type(3) {
+    --scale: 2.5;
+    --dist: 75%;
+    --deg: 20deg;
+}
+
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
