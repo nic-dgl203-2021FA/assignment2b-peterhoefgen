@@ -182,6 +182,14 @@ img:hover {
 
 
 /*
+    Set div id font animation to display in a block
+*/
+
+#fontAnimation {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
 
 */
 
@@ -194,5 +202,11 @@ Add @media ruleset for screens larger that will set up and display a larger grid
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #fontAnimation {
+        display: block;
+        width: 50%;
+        margin: auto;
     }
 }
