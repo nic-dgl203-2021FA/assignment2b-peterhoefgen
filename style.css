@@ -215,6 +215,16 @@ img:hover {
 }
 
 /*
+    Set individual styles for each paragraph
+*/
+
+#fontAnimation p:nth-of-type(1) {
+    --scale: 2.5;
+    --dist: 75%;
+    --deg: 15deg;
+}
+
+/*
 Add @media ruleset for screens larger that will set up and display a larger grid.
 */
 
