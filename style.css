@@ -8,6 +8,11 @@
     --deg: 10deg;
 }
 
+/*
+    This section sets styles for the navigation menu/header that was found from
+    w3 schools How to - Mobile Navigation.
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -53,7 +58,7 @@ body {
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #d4c3f1;
     color: white;
   }
 
