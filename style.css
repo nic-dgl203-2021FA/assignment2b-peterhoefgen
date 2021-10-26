@@ -119,6 +119,15 @@ img:hover {
     offset-path: path('M22.3,265,121,215l88,63.6,65-44.3,79,44.3');
 }
 
+@keyframes shift {
+    0% {
+        offset-distance: 0%;
+    }
+    100% {
+        offset-distance: 100%;
+    }
+}
+
 /*
     SVG Rectangle Animation
 */
