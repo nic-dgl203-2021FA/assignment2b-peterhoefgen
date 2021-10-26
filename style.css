@@ -1,4 +1,14 @@
 /*
+    Set up CSS distance, scale, and degree variables for animation in the root
+*/
+
+:root {
+    --dist: 0%;
+    --scale: 2;
+    --deg: 10deg;
+}
+
+/*
     Grid set up for screens smaller than 700px, the grid is 1 column and four rows.
 */
 
@@ -115,10 +125,18 @@ img:hover {
     Animation Part 2 CSS:
 */
 
+/*
+    set up #square for animating on an offset-path
+*/
+
 #square {
     offset-path: path('M22.3,265,121,215l88,63.6,65-44.3,79,44.3');
     animation: shift 8.5s linear both; 
 }
+
+/*
+    set up keyframes for the animation on path
+*/
 
 @keyframes shift {
     0% {
@@ -162,6 +180,10 @@ img:hover {
     }
 }
 
+
+/*
+
+*/
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
