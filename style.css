@@ -115,7 +115,7 @@ img:hover {
     Animation Part 2 CSS:
 */
 
-#Square {
+#square {
     offset-path: path('M22.3,265,121,215l88,63.6,65-44.3,79,44.3');
     animation: shift 8.5s linear both; 
 }
