@@ -192,6 +192,15 @@ img:hover {
 }
 
 /*
+    set up animation for fontMovement for all paragraphs in the fontAnimation ID
+*/
+
+#fontAnimation p {
+    animation: fontMovement 2s linear both;
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*
     set keyframes for font movement, push font off page to start,
     then use CSS variables to animate.
 */
