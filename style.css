@@ -191,7 +191,19 @@ img:hover {
     margin: auto;
 }
 
+/*
+    set keyframes for font movement, push font off page to start,
+    then use CSS variables to animate.
 */
+
+@keyframes fontMovement {
+    0% {
+        transform: translateX(-325%) scale(1) rotate(0deg);
+    }
+    100% {
+        transform: translateX(var(--dist)) scale(var(--scale)) rotate(var(--deg));
+    }
+}
 
 /*
 Add @media ruleset for screens larger that will set up and display a larger grid.
